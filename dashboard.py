@@ -17,7 +17,8 @@ def create_weekday_vs_weekend_summary_df(df_hour):
     return weekday_vs_weekend_summary
 
 
-all_df = pd.read_csv("https://github.com/fajarla/bike-sharing-dashboard/blob/main/hour.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/fajarla/bike-sharing-dashboard/main/hour.csv
+")
 
 # Assuming all_df is your DataFrame and "dteday" is the date column
 min_date = all_df["dteday"].min()
